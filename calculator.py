@@ -21,6 +21,7 @@ def calculator():
     num1 = int(input("What's the first number?: "))
     for symbol in operations:
         print(symbol)
+
     should_continue = True
 
     while should_continue:

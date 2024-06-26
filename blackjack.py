@@ -43,9 +43,10 @@ def play_game():
         user_cards.append(deal_card())
         computer_cards.append(deal_card())
 
+    user_score = calculate_score(user_cards)
+    computer_score = calculate_score(computer_cards)
+
     while not is_game_over:
-        user_score = calculate_score(user_cards)
-        computer_score = calculate_score(computer_cards)
         print(f"Your cards: {user_cards}, current score:{user_score}")
         print(f"Computer's First cards: {computer_cards[0]}")
 
