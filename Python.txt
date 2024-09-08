@@ -1,0 +1,29 @@
+Python Data types
+=================
+Number : int = 10
+decimal : float = 2.5
+text : str = 'Hello'
+active : bool = false
+
+names : list = ['bob','Anna']
+coordinates : tuple(1.5, 2.5)
+unique : set = {1,4,2,9}
+data : dict = {'name' : 'Bob'}
+
+Type annotations => name : str = 'Bob'
+
+Dunder methods => __ method
+
+class Car:
+    def __init(self, brand: str, horsepower: int) -> None:
+        self.brand = brand
+        self.horsepower = horsepower
+    
+    def __str__(self) -> str:
+        return f'{self.brand}, {self.horsepower}hp'
+
+    def __add__(self, other: Self) -> str:
+        return f'{self.brand}, {self.horsepower}hp'
+
+volvo: Car = Car('volvo',200)
+print(volvo)
