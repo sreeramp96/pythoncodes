@@ -1,7 +1,7 @@
 from data import MENU
 
 profit = 0
-resources = {"water": 300, "milk": 200, "coffee": 100}
+resources: list = {"water": 300, "milk": 200, "coffee": 100}
 
 
 def is_resource_sufficient(order_ingredients):
@@ -13,7 +13,7 @@ def is_resource_sufficient(order_ingredients):
 
 
 def process_coins():
-    total = int(input("how many quarters?: ")) * 0.25
+    total: int = int(input("how many quarters?: ")) * 0.25
     total += int(input("how many dimes?: ")) * 0.1
     total += int(input("how many nickles?: ")) * 0.05
     total += int(input("how many pennies?: ")) * 0.01
