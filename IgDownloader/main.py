@@ -19,7 +19,7 @@ loader.login(username, password)
 
 target_users = ["lalalalisa_m", "wearelloud", "jennierubyjane"]
 
-start_date = datetime(2024, 9, 1)
+start_date = datetime(2024, 9, 29)
 user_paths = {
     "lalalalisa_m": "/run/media/sreeramp96/MAIN/SREERAM/BACKUP CODES/4K Stogram/lalalalisa_m",
     "wearelloud": "/run/media/sreeramp96/MAIN/SREERAM/BACKUP CODES/4K Stogram/wearelloud",
